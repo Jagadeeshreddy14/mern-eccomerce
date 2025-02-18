@@ -47,6 +47,6 @@ server.get("/",(req,res)=>{
     res.status(200).json({message:'running'})
 })
 
-server.listen(https://mern-eccomerce.vercel.app/,()=>{
-    console.log('server [STARTED] ~ https://mern-eccomerce.vercel.app/');
+server.listen(8080,()=>{
+    console.log('server [STARTED] ~ http://localhost:8000');
 })
